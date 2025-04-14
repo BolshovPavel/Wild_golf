@@ -14456,76 +14456,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: VillagerPlow
       objectReference: {fileID: 0}
+    - target: {fileID: 5852505513619972623, guid: 58cd754c3dde1f944a2d86bd93a982bb, type: 3}
+      propertyPath: onCollision.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 254373352979940544}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2728306578926890382, guid: 58cd754c3dde1f944a2d86bd93a982bb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1830634125}
-    - targetCorrespondingSourceObject: {fileID: 2728306578926890382, guid: 58cd754c3dde1f944a2d86bd93a982bb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1830634126}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58cd754c3dde1f944a2d86bd93a982bb, type: 3}
 --- !u!4 &1830634121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2728306578926858670, guid: 58cd754c3dde1f944a2d86bd93a982bb, type: 3}
   m_PrefabInstance: {fileID: 1830634120}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1830634122 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2728306578926890382, guid: 58cd754c3dde1f944a2d86bd93a982bb, type: 3}
-  m_PrefabInstance: {fileID: 1830634120}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1830634125
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830634122}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 370782fdfcf1fbe42b2cd21bf23903dd, type: 3}
---- !u!114 &1830634126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830634122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521dcf4ce5b4d9a469a5b8c74f79ab86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onCollision:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 254373352979940544}
-        m_TargetAssemblyTypeName: Golf.Player, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Collider, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &1835754029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16543,9 +16487,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stick: {fileID: 1576791142}
-  range: 70
-  speed: 400
-  power: 50
+  range: 55
+  speed: 600
+  power: 25
   helper: {fileID: 1840445661}
 --- !u!1 &254373353003095629
 GameObject:
